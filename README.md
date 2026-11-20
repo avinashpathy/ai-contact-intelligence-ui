@@ -2,6 +2,16 @@
 
 A React and TypeScript frontend for searching a contact network with natural language. The app sends a query to a backend search API, displays the AI-generated summary, and renders matching contacts with their role, location, and skills.
 
+## Documentation
+
+Detailed documentation with architecture, flow, and sequence diagrams lives in [`docs/`](./docs/README.md):
+
+- [Overview](./docs/README.md): what the app is, key ideas, glossary
+- [Architecture & High-Level Design](./docs/ARCHITECTURE.md): system context, layers, components, state, data model, design decisions
+- [Flows](./docs/FLOWS.md): startup, end-to-end search, UI state machine, normalization, and error flows
+- [API & Data Contract](./docs/API.md): endpoints, payloads, normalization and filtering rules
+- [Development Guide](./docs/DEVELOPMENT.md): setup, conventions, styling, extending, known limitations, troubleshooting, deployment
+
 ## Features
 
 - Natural-language contact search
